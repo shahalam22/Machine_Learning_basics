@@ -1,0 +1,14 @@
+Feature Engineering -
+
+    1. Feature Transformation (Transforming data from one type to another type)
+        1. Missing Value Inputation (Remove missing value or fill missing value)
+        2. Handling Categorical Features or Encodin (Scikit learn is a Training Library. It only accepts numerical values, so we have to convert Categorical values in Numerical values)
+        3. Outlier Detection (Those values which is not compatible with majority portion of the test data)
+        4. Feature Scaling (Sometimes 2ta feature er moddhe kaj korle ektar value onek high and arektar value onek low hole, high valued feature low valued feature er upor excessively dominate kore jeta ml model er behavior e khub baje effect fele. Tai feature scaling er maddhome eder moddhe value er distance komay ana hoy)
+        5. Encoding Categorical Data
+
+    2. Feature Construction (Related feature gula combine kore ekta feture create kora)
+        
+    3. Feature Selection (Just relatable and important feature gulo select kore kaj kora)
+    
+    4. Feature Extraction

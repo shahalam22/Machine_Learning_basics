@@ -1,0 +1,3 @@
+Pipelines chains together multiple steps so that the output of each step is used as input to the next step
+
+Pipelines makes it easy to apply the same preprocessing to train and test!

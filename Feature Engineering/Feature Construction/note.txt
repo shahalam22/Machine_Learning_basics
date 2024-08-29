@@ -1,0 +1,3 @@
+Feature construction - Ek er beshi feature eksathe kore ekta single feature e convert kora. Jeno oi single featuree diye kaj korlei same or improved feature ashe. Like titanic dataset er SibSp and ParCh ei 2 ta feature ke merge kore amra Family nam er ekta feature banate pari jekhane 0 means ekai travel kortese, ar n means n numbers family members der sathe travel kortese.
+
+Feature Splitting - Sometimes ekta feature e multiple data eksathe densed way te thake jar karone plot korte gele baje hoye jay excessive data er jonno. Tokhon amra chaile Oi feature ke data wise multiple feature reconstruct korte pari. Eke ei Feature Splitting bole.

@@ -1,0 +1,29 @@
+Outliers have impact over 
+1. Linear regression
+2. Logistic Regression
+3. Ada boost
+4. Deep learning 
+algoritms. Because, in these algorithms we calculate weights. 
+
+In tree based algorithms, it has not enough effects.
+
+How to deal with outliers?
+1. Trimming
+    thin dataset
+    fast
+2. Capping
+    Sample distribution e 90% er cheye boro data point peleo otake 90% dhorei chalay deya
+3. Consider them as missing value, and handle as missing value
+4. Discretization of numerical value if outliers are numeric 
+
+How to know wether we have outliers?
+in Numerical Data -
+    1. Normal Distribution : If we got any value outside of (miu +- 3sigma) then those values will be the outliers
+    2. Skewed Distribution - If we got any value outside of (Q1-1.5IQR & Q3+1.5TQR) then those values will be the outliers
+    3. Other Distribution : Ekhane percentile approach e jawa lage, like 98% er upore and 5% er niche jara tara amader outliers. Erokom higher and lower threshold dhore agano lage.     
+
+Techniques for Outlier Detection and Removal :
+    1. Z-Index treatment
+    2. IQR based filtering
+    3. Percentile
+    4. Winsarization

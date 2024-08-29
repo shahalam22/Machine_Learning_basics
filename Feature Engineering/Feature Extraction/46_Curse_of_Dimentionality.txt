@@ -1,0 +1,17 @@
+Here Dimention means Features. So we can call it Curse of Features also. Optimal numbers of features er cheye beshi features add korle khub ekta labh hoy na. Like optimal number of features 4 jekhane best perform kortese model. Ekhon khane 5 ta feature niye ashle kono extra benefit nei ulta model er performance kharap hote pare. This is the main theme for Curse of Dimentionality. 
+
+What is the reason that model's performance will get downgraded with higher dimensions? This will happen for SPARSITY. Features joto barbe amader dataset toto sparse hobe. tokhon calculation significantly change hoye jabe.
+
+DisAdvantages :
+    1. Increased Sparsity
+    2. Performance Decreases
+    3. Increased Computation
+
+Solution : 
+    1. Feature Selection
+        a. Forward Selection
+        b. Backward Elimination
+    2. Feature Extraction
+        a. PCA
+        b. LDA
+        c. tSine

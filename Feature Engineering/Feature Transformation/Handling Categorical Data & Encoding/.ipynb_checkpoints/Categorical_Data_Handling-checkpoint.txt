@@ -1,0 +1,18 @@
+Data -
+    1. Numerical Data
+    2. Categorical Data
+        1. Nominal Categorical Data [category gulor moddhe kono relationship nai, tai kono model create kora possible na. Like: home, owner name]
+        2. Ordinal Categorical Data [category er moddhe ekta relationship thake, tai model create kora possible. Like: hsc, ssc]
+
+Machine learning algorithms only expects numerical data. So, in order to work with catogorical data we have to convert this categorical data into numerical data through Categorical Data Encoding
+
+There are many types of Encoding process. Two of them are -
+    1. Ordinal Encoding - used to encode ordinary data. 
+    2. Label Encoding - same as Ordinal Encoding with some changes
+    3. One hot encoding - used to encode nominal data 
+
+- We use ordinal encoding over input data. Use label encoding over output data.
+
+- In One Hot Encoding we make n-1 columns for n categories. To eredicate multicolinearity. Multicolinearity means there couldn't be any mathematical relationship between the output columns of the OHE. We removes 1 column to solve this problem of multicolinearity which is called Dummy Variable Trap
+
+- OHE uses most frequent variables. Like 40 ta brand name ache ekhon, frequency r dik theke first 9 ta nibe and bakider Others nam e arekta column e eksathe group kore rakhbe. Ete ekdik e amader variable number kome jabe + OHE o implement kora hobe

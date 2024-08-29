@@ -1,0 +1,34 @@
+Feature Scaling(Sometimes 2ta feature er moddhe kaj korle ektar value onek high and arektar value onek low hole, high valued feature low valued feature er upor excessively dominate kore jeta ml model er behavior e khub baje effect fele. Tai feature scaling er maddhome eder moddhe value er distance komay ana hoy)
+
+Types of Feature Scaling
+    1. Standardization
+    2. Normalization
+        1. MinMax Scelar
+        2. Robust Scelar
+
+
+Standardization
+    Suppose a feature named 'Age'. Now, we want to convert this into standardized form 'Age`'. Then xi is data point of 'Age', x' is mean, sigma is SD. then xi` = (xi-x')/sigma.
+    Where mean of all xi` = 0, SD = 1
+
+When we have to apply standardization?
+    1. K-Means algorithm
+    2. K-Nearest_Neghbours
+    3. Principle Component Analysis (PCA)
+    4. Atrificial Neural Network
+    5. Gradient Descent
+
+Normalization
+    Mean Normakization : Xi is a data point, then Xi` = (Xi - Xmean)/(Xmax - Xmin)
+
+    MaxAbs Scaling : Xi is a data point, then Xi` = Xi/|Xmax|. We use it when we have sparse data
+
+    Robust Scaling : Xi is a data point, then Xi` = (Xi - Xmedian)/IQR(75th percentile - 25th percentile). We will use it if we have outliers in out dataset
+
+    MinMax Scaling : xi is a data point. xi` = (xi - xmin)/(xmax - xmin)
+
+
+
+Normalization vs Standardization
+1. Is feature scaling is required? if yes, then.
+2. In most of the algorithms we will use standardization. If we have to use normalization, then we will use MInMax Norm. most. For sparse data we will use MaxAbs, for data with outliers we will use Robust.
